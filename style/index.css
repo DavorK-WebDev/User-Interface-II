@@ -115,6 +115,7 @@ h3 {
     margin-left: 100px;
     border: 1px solid transparent;
     border-radius: 10px;
+    padding-bottom: 10px;
 }
 .button {
     width: 150px;
@@ -167,7 +168,7 @@ h4 {
 .contact {
     width: 200px;
     font-family: Oswald;
-    background-color: maroon;
+    background-color: black;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -201,4 +202,42 @@ h4 {
 }
 .twitter {
     margin-right: 30px;
+}
+.button1 {
+    width: 150px;
+    font-family: Oswald;
+    background-color: maroon;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    margin-left: 165px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    animation-name: example;
+    animation-duration: 10s;
+}
+.button1:hover {
+    background-color: black;
+}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: palevioletred;}
+    50%  {background-color: pink;}
+    75%  {background-color: plum;}
+    100% {background-color:red;}
 }
