@@ -113,6 +113,8 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     margin-left: 100px;
+    border: 1px solid transparent;
+    border-radius: 10px;
 }
 .button {
     width: 150px;
@@ -165,7 +167,7 @@ h4 {
 .contact {
     width: 200px;
     font-family: Oswald;
-    background-color:palevioletred;
+    background-color: maroon;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -192,7 +194,7 @@ h4 {
     padding-bottom: 20px;
 }
 .button:hover {
-    background-color: palevioletred;
+    background-color: black;
 }
 .facebook {
     margin-right: 30px;
