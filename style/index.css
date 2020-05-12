@@ -131,7 +131,7 @@ h3 {
 .button {
     width: 25%;
     font-family: Oswald;
-    background-color: maroon;
+    background-color: palevioletred;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -156,7 +156,7 @@ h3 {
 .lorem {
     padding-top: 3%;
 }
-#footer {
+.footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -177,9 +177,12 @@ h4 {
     padding-bottom: 8%;
 }
 .contact {
-    width: 200px;
+    display: flex;
+}
+.button2 {
+    width: 150px;
     font-family: Oswald;
-    background-color: black;
+    background-color:palevioletred;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -201,19 +204,26 @@ h4 {
     -o-user-select: none;
     user-select: none;
 }
+.button2:hover {
+    background-color: black;
+    border-radius: 8px;
+}
 .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20%;
     padding-top: 1%;
     padding-bottom: 1%;
+}
+.item {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
 }
 .button:hover {
     background-color: black;
 }
-/*.facebook {
-    margin-right: 15%;
-}
-.twitter {
-    margin-right: 10%;
-}*/
 .button1 {
     width: 50%;
     font-family: Oswald;
