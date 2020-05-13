@@ -270,12 +270,18 @@ h4 {
     .logo {
         padding-top: 1%;
     }
+    .button {
+        font-size: 1.6rem;
+    }
     .myprojects {
         justify-content: space-evenly;
     }
     .button1 {
         width: 42%;
         font-size: 1rem;
+    }
+    .button2 {
+        font-size: 1.5rem;
     }
     .social {
         width: 40%;
